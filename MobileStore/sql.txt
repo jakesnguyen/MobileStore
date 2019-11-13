@@ -1,0 +1,66 @@
+CREATE DATABASE MobileStore;
+GO
+USE MobileStore
+
+CREATE TABLE UserInfo (
+	userID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	userName nvarchar(50),
+	Email nvarchar(50),
+	Password nvarchar(50),
+	userFullName nvarchar(50),
+	Phone nvarchar(50),
+	Address nvarchar(100),
+	RoleID int
+);
+CREATE TABLE Role (
+	RoleID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	RoleName nvarchar(50)
+	);
+CREATE TABLE Category (
+	cateID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	categoryName nvarchar(50),
+);
+
+CREATE TABLE Devices (
+	devicesID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	devicesName nvarchar(50),
+	Quantity int,
+	Price float,
+	cateID int,
+	Img1 nvarchar(50),
+	Img2 nvarchar(50),
+	Img3 nvarchar(50),
+	Specific nvarchar(255),
+	Brand nvarchar(50)
+);
+CREATE TABLE Comment(
+	commentID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	userID int,
+	deviceID int,
+	Commentary nvarchar(255),
+
+);
+
+
+CREATE TABLE Bill (
+	bID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	userID int,
+	Total float,
+	Payment nvarchar(50),
+	Bank nvarchar(50),
+	Address nvarchar(100),
+	Date nvarchar(50),
+	
+);
+
+CREATE TABLE BillDetail (
+	bDetailID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	bID int,
+	devicesID int,
+	Price float,
+	Quantity int,
+	Status nvarchar(50),
+
+);
+
+

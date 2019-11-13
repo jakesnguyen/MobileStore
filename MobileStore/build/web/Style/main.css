@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2019, 10:32:27 PM
+    Author     : jakes
+*/
+.banner{
+    height:150px;
+    width: 100%;
+    background-color:#007bff;
+}
+.banner-img{
+    height: 150px;
+    width: 65%;
+    display:inline-block;
+    background-color:black;
+    padding:30px;
+}
+.cart-view{
+    height: 150px;
+    width: 25%;
+    float:right;
+    display:inline-block;
+    padding:30px;
+}
+.body-container{
+    width: 100%;
+
+}
+
+.body-center{
+    margin:auto;
+    background-color:whitesmoke;
+    width: 1400px;
+    height: 4500px;
+    display:block;
+    margin-top:50px;
+}
+.filter{
+    width: 25%;
+
+    display:inline-block;
+    height: 300px;
+    padding:15px;
+}
+.filter h1{
+    font-size:50px;
+
+}
+.devices-container{
+    padding:15px;
+    float:right;
+    width: 70%;
+    display:inline-block;
+    height: 4500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    padding: 10px;
+}
+.grid-item {
+
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    height: 300px;
+
+}
+.grid-item img{
+    max-width:100%;
+    max-height:100%;
+
+}
+.grid-item-text{
+    position: absolute;
+    width: 240px;
+
+}
+.grid-item-hover{
+    position: absolute;
+    display:none;
+    width: 240px;
+    margin-top:120px;
+    border-radius: 15px;
+    background-color:black;
+
+    padding:15px;
+
+
+}
+.grid-item-hover a{
+    color:white;
+}
+
+.grid-item:hover .grid-item-hover{
+    display:block;
+
+
+}
+.mobile{
+    height: 2700px;
+}
+.tablet{
+    height: 800px;
+}
+.assessories{
+    height: 1200px;
+}
+.userInfo-container{
+    width: 100%;
+    height: 800px;
+   
+    
+}
+.userInfo-center{
+    margin:auto;
+    width: 1400px;
+    background-color: whitesmoke;
+    height: 800px;
+    padding:50px;
+}
+.userInfo-left{
+    display:inline-block;
+    width: 200px;
+    height: 600px;
+    padding:15px;
+}
+.userInfo-right{
+    float:right;
+    display:inline-block;
+    width: 1000px;
+    height: 600px;
+    padding:15px;
+}
+.userInfo-container li{
+    display:block;
+    font-size:20px;
+    width: 220px;
+    height: 100px;
+    text-align: left;
+}
+.userInfo-hide{
+    display:none;
+}
+.userInfo-show{
+    display:inline-block;
+}

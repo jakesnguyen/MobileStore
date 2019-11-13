@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2019, 10:40:57 PM
+    Author     : jakes
+*/
+
+.footer-container{
+    width: 100%;
+    height: 650px;
+    background-color:black;
+
+    color:white;
+}
+
+
+.footer-center{
+    width: 1100px;
+    margin: auto;
+}
+.footer-detail-left{
+    padding:15px;
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+
+}
+.footer-detail-left li{
+    display:block;
+    text-align: left;
+    font-size:20px;
+    width: 250px;
+    height: 40px;
+
+}
+.footer-detail-right{
+    padding:15px;
+    width: 670px;
+    height: 300px;
+    display:inline-block;
+    float:right;
+}
+.footer-detail-left h2{
+    font-size:30px;
+    color:#8512c7;
+
+}
+
+.footer-container h1{
+    font-size:50px;
+}
+.footer-container input{
+    float:right;
+    width: 260px;
+    height: 30px;
+    text-indent: 15px;
+    background-color:black;
+    color:white;
+    border:none;
+    border-bottom:4px solid #ccc;
+}
+.footer-container button{
+    float:right;
+    height: 36px;
+    background-color:#8512c7;
+    color:white;
+}
+.footer-top-left{
+    width: 450px;
+    display:inline-block;
+    height: 200px;
+    padding:15px;
+
+}
+.footer-top-right{
+    width: 500px;
+    height: 200px;
+    padding:15px;
+    display:inline-block;
+    float:right;
+}
+.footer-detail-right table{
+    width: 100%;
+    font-size:20px;
+    border-top:4px solid white;
+}
+.footer-detail-right table tr{
+
+    height: 40px;
+}
